@@ -1,0 +1,73 @@
+// Elements
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;  
+}
+
+li {
+    & a {
+        text-decoration: none;
+    }
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+    color: grey;
+    margin: 0px;
+}
+
+input {
+    background-color: grey;
+    border: none;
+}
+
+
+// Classes
+.menu {
+    height: 100%;
+    width: 20%;
+}
+
+.container {
+    display: flex;
+    
+}
+
+.containerItems {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.main {
+    width: 80%;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.trettio {
+    width: 31%;
+}
+
+.moreInfo:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.expandingImg {
+    width: 150px;
+    padding-top: 10px;
+}
