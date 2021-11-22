@@ -14,4 +14,8 @@ $(document).ready(function() {
     }, function() {
         $(this).css("width", "150px");
     })
+
+    $(".sendBtn").click(function() {
+        $("#thanksMsg").text("Tack för ditt meddelande. Vi återkopplar så fort vi kan!");
+    })
 })

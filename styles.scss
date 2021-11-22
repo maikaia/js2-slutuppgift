@@ -44,7 +44,6 @@ textarea {
     border: none;
     width: 100%;
     height: 100px;
-    
 }
 
 // Classes
@@ -89,18 +88,43 @@ textarea {
     padding-top: 10px;
 }
 
-
-
-// 
-
 .column {
     float: left;
     width: 30%;
     padding: 10px;
+    & .inputPicPadding {
+        margin-top: 10%;
+    }
 }
 
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+
+.teamAndVd {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sendBtn {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.pök {
+    font-weight: bold;
+    padding-top: 10px;
+}
+// Id
+#thanksMsg {
+    text-align: center;
+    padding:10px;
+    color:grey
 }
